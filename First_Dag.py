@@ -8,7 +8,6 @@ from airflow.operators.bash_operator import BashOperator
 from airflow.utils.dates import days_ago
 
 #defining DAG arguments
-# You can override them on a per-task basis during operator initialization
 default_args = {
     'owner': 'Joe',
     'start_date': days_ago(0),
